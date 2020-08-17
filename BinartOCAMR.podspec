@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TSVoiceConverter-s Objective-C version.
                        DESC
 
-  s.homepage         = 'https://github.com/fallending/BinartOCAMR'
+  s.homepage         = 'https://github.com/fallending/BinartOCAMR-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fallen ink' => 'fengzilijie@qq.com' }
-  s.source           = { :git => 'https://github.com/fallending/BinartOCAMR.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fallending/BinartOCAMR-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
