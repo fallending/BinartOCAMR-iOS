@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BinartOCAMR'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BinartOCAMR.'
+  s.version          = '0.1.1'
+  s.summary          = 'TSVoiceConverter-s Objective-C version.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TSVoiceConverter-s Objective-C version.
+  TSVoiceConverter-s Objective-C version. no more message.
                        DESC
 
   s.homepage         = 'https://github.com/fallending/BinartOCAMR-iOS'
@@ -37,5 +37,5 @@ TSVoiceConverter-s Objective-C version.
   ]
   s.vendored_libraries = "BinartOCAMR/Classes/**/*.a"
   
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'BinartOCAMR/Classes/**/*.h'
 end
