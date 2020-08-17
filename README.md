@@ -20,9 +20,13 @@ it, simply add the following line to your Podfile:
 pod 'BinartOCAMR'
 ```
 
+## Compile
+
+[Here is the opencore-amr source file](https://sourceforge.net/projects/opencore-amr/?source=typ_redirect), download the source code, run Compile/build.sh
+
 ## Author
 
-fallending, fengzilijie@qq.com
+fallen ink, fengzilijie@qq.com
 
 ## License
 
