@@ -1,5 +1,5 @@
 PODS:
-  - BinartOCAMR (0.1.0)
+  - BinartOCAMR (0.1.2)
   - Expecta (1.0.6)
   - Specta (1.0.7)
 
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BinartOCAMR: 7ebc2a83c172b55d5054ae9edb34a1ff2c7a442d
+  BinartOCAMR: cb25d64a58022c30349ff86d5d734425a49d9fc4
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 

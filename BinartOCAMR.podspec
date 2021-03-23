@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BinartOCAMR'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'TSVoiceConverter-s Objective-C version.'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,13 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  
+  # Xcode 12, pod lib lint, report error:
+  # Ld /Users/seven/Library/Developer/Xcode/DerivedData/App-cbdiuiekijjutjfhwopfosntnsnt/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App normal arm64
+  s.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.source_files = [
     'BinartOCAMR/Classes/**/*.{h,mm}',

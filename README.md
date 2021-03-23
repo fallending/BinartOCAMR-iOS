@@ -11,6 +11,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+## Publish
+
+We use .a library, so lint like this:
+```
+pod spec lint BjcaSignSDK.podspec --verbose --use-libraries
+```
+and pulish to trunk like:
+```
+pod trunk push  BjcaSignSDK.podspec --allow-warnings --use-libraries
+```
+
 ## Installation
 
 BinartOCAMR is available through [CocoaPods](https://cocoapods.org). To install
