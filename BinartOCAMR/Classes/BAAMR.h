@@ -11,11 +11,9 @@
 @interface BAAMR : NSObject
 
 + (BOOL)decAmr:(NSString *)amrFilePath toWav:(NSString *)wavFilePath;
-
++ (BOOL)decAmr:(NSString *)amrFilePath toWavUndetermined:(NSString *)wavFilePath;
 + (BOOL)encWav:(NSString *)wavFilePath toAmr:(NSString *)amrFilePath;
-
 + (BOOL)isAmr:(NSString *)filePath;
-
 + (BOOL)isMp3:(NSString *)filePath;
 
 @end
