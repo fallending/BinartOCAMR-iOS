@@ -15,9 +15,6 @@ static const int amrPacketSizeArray[] = { 12, 13, 15, 17, 19, 20, 26, 31, 5, 6, 
 @implementation BAAMR
 
 + (BOOL)decAmr:(NSString *)amrFilePath toWavUndetermined:(NSString *)wavFilePath {
-    const char *amrCString = [amrFilePath cStringUsingEncoding:NSUTF8StringEncoding];
-    const char *wavCString = [wavFilePath cStringUsingEncoding:NSUTF8StringEncoding];
-    
     NSData *data = [BAAMR decodeAsWaveWithAMRFilePath:amrFilePath sampleRate:8000 bitsPerSample:16 channels:1];
     BOOL written = [data writeToFile:wavFilePath atomically:YES];
     return  written;
